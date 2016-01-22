@@ -6,7 +6,7 @@
 ## The functions will store and retrieve the matrix and its inverse in memory.  Initially, the inverse will be NULL
 ## until the list is passed to the cacheSolve function.
 makeCacheMatrix <- function(x = matrix()) {
-  m <- NULL
+  m <- NULL 
   set <- function(y) {
     x <<- y
     m <<- NULL
